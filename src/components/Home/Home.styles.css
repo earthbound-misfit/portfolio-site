@@ -1,0 +1,96 @@
+#item1 {
+  animation-duration: 2s;
+  animation-name: sliding-vertically;
+  
+  
+}
+@keyframes sliding-vertically {
+  from {
+    margin-top: 100%;
+    width: 300%;
+  }
+  to {
+    margin-top: 0%;
+    width: 100%;
+  }
+}
+
+#item1:hover,
+#item2:hover,
+#item3:hover,
+#item4:hover,
+#item5:hover,
+#item6:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 3s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+    }
+
+#item2 {
+  animation-duration: 2s;
+  animation-name: sliding-vertically;
+}
+@keyframes sliding-vertically {
+  from {
+    margin-bottom: 100%;
+    width: 100%;
+  }
+  to {
+    margin-bottom: 0%;
+    width: 100%;
+  }
+}
+
+
+#item3 {
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-right: 100%;
+    width: 300%;
+  }
+  to {
+    margin-right: 0%;
+    width: 100%;
+  }
+}
+
+
+#item4 {
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+#item5 {
+  background-image: url('../../assets/profile.png');
+  background-repeat: none;
+  background-size: 100%;
+  box-shadow: 0 0 70px rgba(1, 1, 1, 0.9) inset;
+  border-radius: 50%;
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 60%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
